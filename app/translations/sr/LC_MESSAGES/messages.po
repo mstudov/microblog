@@ -1,0 +1,268 @@
+# Serbian translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-12-11 13:26+0100\n"
+"PO-Revision-Date: 2019-12-11 13:27+0100\n"
+"Last-Translator: \n"
+"Language: sr\n"
+"Language-Team: sr <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: app/__init__.py:19
+msgid "Please log in to access this page."
+msgstr "Molim Vas ulogujte se kako biste pristupili ovoj stranici."
+
+#: app/auth/email.py:7
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Resetuj svoju lozinku"
+
+#: app/auth/forms.py:8 app/auth/forms.py:14 app/main/forms.py:11
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: app/auth/forms.py:9 app/auth/forms.py:16 app/auth/forms.py:40
+msgid "Password"
+msgstr "Lozinka"
+
+#: app/auth/forms.py:10
+msgid "Remember me"
+msgstr "Zapamti me"
+
+#: app/auth/forms.py:11 app/auth/routes.py:28 app/templates/auth/login.html:11
+msgid "Sign In"
+msgstr "Uloguj se"
+
+#: app/auth/forms.py:15
+msgid "E-mail"
+msgstr "E-mail"
+
+#: app/auth/forms.py:18 app/auth/forms.py:42
+msgid "Repeat Password"
+msgstr "Ponovi lozinku"
+
+#: app/auth/forms.py:20 app/auth/routes.py:49
+#: app/templates/auth/register.html:5
+msgid "Register"
+msgstr "Registruj se"
+
+#: app/auth/forms.py:28 app/main/forms.py:24
+msgid "Please use a different username."
+msgstr "Molim Vas koristite drugo korisničko ime."
+
+#: app/auth/forms.py:33
+msgid "Please use a different e-mail."
+msgstr "Molim Vas koristite drugu e-mail adresu."
+
+#: app/auth/forms.py:36
+msgid "Email"
+msgstr "E-mail"
+
+#: app/auth/forms.py:37 app/auth/forms.py:44
+msgid "Request Password Reset"
+msgstr "Podnesi zahtev za resetovanje pasvorda"
+
+#: app/auth/routes.py:21
+msgid "Invalid username or password"
+msgstr "Neispravno korisničko ime ili lozinka"
+
+#: app/auth/routes.py:47
+msgid "Congratulations, you are now a registered user!"
+msgstr "Čestitamo, postao si registrovani korisnik!"
+
+#: app/auth/routes.py:62
+msgid "Check your email for the instructions to reset your password."
+msgstr "Proveri svoj e-mail za instrukcije za resetovanje lozinke."
+
+#: app/auth/routes.py:64 app/templates/auth/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Resetuj Lozinku"
+
+#: app/auth/routes.py:78
+msgid "Your password has been reset."
+msgstr "Tvoja lozinka je resetovana."
+
+#: app/main/forms.py:12
+msgid "About me"
+msgstr "O meni"
+
+#: app/main/forms.py:14 app/main/forms.py:30
+msgid "Submit"
+msgstr "Snimi"
+
+#: app/main/forms.py:28
+msgid "Say something"
+msgstr "Reci nešto"
+
+#: app/main/forms.py:34 app/main/routes.py:135
+msgid "Search"
+msgstr "Pretraži"
+
+#: app/main/routes.py:30
+msgid "Your post is now live!"
+msgstr "Tvoja objava je postavljena!"
+
+#: app/main/routes.py:81
+msgid "Your changes have been saved."
+msgstr "Sve izmene su snimljene."
+
+#: app/main/routes.py:96
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Korisnik %(username)s nije pronađen."
+
+#: app/main/routes.py:99
+msgid "You cannot follow yourself!"
+msgstr "Ne možeš da pratiš sebe!"
+
+#: app/main/routes.py:103
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Pratiš korisnika %(username)s!"
+
+#: app/main/routes.py:115
+msgid "You cannot unfollow yourself!"
+msgstr "Ne možeš da otpratiš sebe!"
+
+#: app/main/routes.py:119
+#, python-format
+msgid "You are not following %(username)s!"
+msgstr "Ne pratiš više korisnika %(username)s!"
+
+#: app/templates/_post.html:12
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s je rekao %(when)s"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog!"
+msgstr "Dobrodošao na Microblog!"
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr "Početna stranica"
+
+#: app/templates/base.html:22
+msgid "Explore"
+msgstr "Istraži"
+
+#: app/templates/base.html:33
+msgid "Login"
+msgstr "Uloguj se"
+
+#: app/templates/base.html:35
+msgid "Profile"
+msgstr "Profil"
+
+#: app/templates/base.html:36
+msgid "Logout"
+msgstr "Izloguj se"
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Izmeni podešavanja profila"
+
+#: app/templates/index.html:4
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Ćao, %(username)s!"
+
+#: app/templates/index.html:25 app/templates/user.html:31
+msgid "Newer posts"
+msgstr "Nove objave"
+
+#: app/templates/index.html:30 app/templates/user.html:36
+msgid "Older posts"
+msgstr "Stare objave"
+
+#: app/templates/search.html:4
+msgid "Search Results"
+msgstr "Rezultati pretrage"
+
+#: app/templates/search.html:13
+msgid "Previous results"
+msgstr "Stariji rezultati"
+
+#: app/templates/search.html:18
+msgid "Next results"
+msgstr "Noviji rezultati"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Korisnik"
+
+#: app/templates/user.html:11
+msgid "Last seen"
+msgstr "Poslednji put viđen"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d pratilaca"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d prati"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Izmeni podešavanja profila"
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr "Zaprati"
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr "Odprati"
+
+#: app/templates/auth/login.html:17
+msgid "New User?"
+msgstr "Novi korisnik?"
+
+#: app/templates/auth/login.html:17
+msgid "Click to Register!"
+msgstr "Klikni da se registruješ!"
+
+#: app/templates/auth/login.html:19
+msgid "Forgot Your Password?"
+msgstr "Zaboravio si svoju lozinku?"
+
+#: app/templates/auth/login.html:20
+msgid "Click to Reset It!"
+msgstr "Pritisni da resetuješ!"
+
+#: app/templates/auth/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Resetuj Svoju Lozinku"
+
+#: app/templates/errors/404.html:4
+msgid "File Not Found"
+msgstr "Fajl Nije Pronađen"
+
+#: app/templates/errors/404.html:5 app/templates/errors/500.html:6
+msgid "Back"
+msgstr "Nazad"
+
+#: app/templates/errors/500.html:4
+msgid "An unexpected error has occured"
+msgstr "Nastala je neočekivana greška"
+
+#: app/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Administrator je obavešten. Izvinjavamo se zbog neugodnosti!"
+
+#~ msgid "Username must be between 3 and 20 characters."
+#~ msgstr "Korisničko ime mora biti između 3 i 20 karaktera."
